@@ -1,101 +1,107 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Home</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="static/main.css">
-		<link href="static/f.ico" rel="icon">
-	</head>
-	<body>
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="static/main.css" />
+    <link href="static/f.ico" rel="icon" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="inner align-center">
+        <a class="logo"><strong>Gagandeep's</strong> Portfolio</a>
+        <nav id="nav">
+          <a href="index.html"><strong>Home</strong></a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a href="#navPanel" class="navPanelToggle"
+          ><span class="fa fa-bars"></span
+        ></a>
+      </div>
+    </header>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a class="logo"><strong>Gagandeep's</strong> Portfolio</a>
-					<nav id="nav">
-						<a href="index.html">Home</a>
-						<a href="generic.html">Projects</a>
-						<a href="contact.html">Contact</a>
-					</nav>
-					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-				</div>
-			</header>
+    <!-- Banner -->
+    <section id="banner">
+      <div class="inner">
+        <header>
+          <h1>Gagandeep Lubana</h1>
+        </header>
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<header>
-						<h1>Gagandeep Lubana</h1>
-					</header>
+        <div class="flex">
+          <div>
+            <img src="./static/assets/images/book.png" />
+            <h3>Alumni</h3>
+            <p>Currently an alumni at University of Toronto</p>
+          </div>
 
-					<div class="flex ">
+          <div>
+            <img src="./static/assets/images/comp.png" />
+            <h3>Education</h3>
+            <p>Pursuing a Honours BSc <br />in Computer Science</p>
+          </div>
 
-						<div>
-							<img src="./static/assets/images/book.png"/>
-							<h3>Alumni</h3>
-							<p>Currently an alumni at University of Toronto</p>
-						</div>
+          <div>
+            <img src="./static/assets/images/gears.png" />
+            <h3>STEM</h3>
+            <p>
+              Interested in Information Security,<br />
+              Machine Learning, and Robotics
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-						<div>
-							<img src="./static/assets/images/comp.png"/>
-							<h3>Education</h3>
-							<p>Pursuing a Honours BSc <br />in Computer Science</p>
-						</div>
+    <!-- Three -->
+    <section id="three" class="wrapper align-center">
+      <div class="inner">
+        <div class="align-center">
+          <article>
+            <div class="image round">
+              <img src="./static/assets/images/profilepic.jpg" alt="Pic 02" />
+            </div>
+            <header>
+              <h3>My Works<br />and Projects</h3>
+            </header>
+            <p>
+              The projects I have created demonstrate<br />what I have learned
+              in the past and my <br />knowledge and understanding in Computer
+              Science.
+            </p>
+            <div class="align-center">
+              <div class="align-center">
+                <a
+                  href="https://drive.google.com/file/d/1EgYFAmcjC9SLwaPckG-vGRKKmjGaFGAh/view?usp=sharing"
+                  target="_blank"
+                  class="button special"
+                  >DOWNLOAD CV</a
+                >
+              </div>
+              <div class="align-center">
+                <a href="generic.html" class="button">Projects</a>
+              </div>
+              <div>
+                <a href="contact.html" class="button">Contact</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-						<div>
-							<img src="./static/assets/images/gears.png"/>
-							<h3>STEM</h3>
-							<p>Interested in Information Security,<br /> Machine Learning, and Robotics</p>
-						</div>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="copyright">&copy; Gagandeep Lubana</div>
+    </footer>
 
-					</div>
-				</div>
-			</section>
-
-
-		<!-- Three -->
-			<section id="three" class="wrapper align-center">
-				<div class="inner">
-					<div class="align-center">
-						<article>
-							<div class="image round">
-								<img src="./static/assets/images/profilepic.jpg" alt="Pic 02" />
-							</div>
-							<header>
-								<h3>My Works<br />and Projects</h3>
-							</header>
-							<p>The projects I have created demonstrate<br />what I have learned in the past and my <br />knowledge and understanding in Computer Science.</p>
-							<div class="align-center">
-								<div class="align-center">
-									<a href="https://drive.google.com/file/d/1EgYFAmcjC9SLwaPckG-vGRKKmjGaFGAh/view?usp=sharing" target="_blank" class="button special">DOWNLOAD CV</a>
-								</div>
-								<div class="align-center">
-									<a href="generic.html" class="button">Projects</a>
-								</div>
-								<div>
-									<a href="contact.html" class="button">Contact</a>
-								</div>
-								
-							</div>
-						</article>
-					</div>
-				</div>
-			</section>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="copyright">
-					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="static/jquery.min.js"></script>
-			<script src="static/skel.min.js"></script>
-			<script src="static/util.js"></script>
-			<script src="static/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="static/jquery.min.js"></script>
+    <script src="static/skel.min.js"></script>
+    <script src="static/util.js"></script>
+    <script src="static/main.js"></script>
+  </body>
 </html>
